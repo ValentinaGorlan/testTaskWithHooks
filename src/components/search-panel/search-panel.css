@@ -1,0 +1,40 @@
+.app_wrapper h1 {
+    font-size: 40px;
+}
+
+.app_wrapper.dark h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.search-wrapper {
+    text-align: center;
+}
+
+.search-wrapper label {
+    display: block;
+    position: relative;
+    background-color: #565656;
+    border-radius: 43px;
+    width: 598px;
+    height: 63px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.search_input, .search_button {
+    border: none;
+    outline: none;
+    background-color: #565656;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+}
+
+.search_button {
+    width: 27px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+

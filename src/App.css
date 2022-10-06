@@ -1,38 +1,135 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+.app_wrapper {
+  background-color: #fff;
+  padding: 60px 110px;
+}
+
+.app_wrapper.dark {
+  background-color: #000;
+}
+
+.menu_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_container {
+  width: 120px;
+  margin-top: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  display: block;
+  border: none;
+  background-color: #fff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  cursor: pointer;
+  border-radius: 6px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button img {
+  width: 34px;
+  margin: 0 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app_wrapper .theme_btn {
+  background-color: #fff;
+  border-radius: 8px;
+  padding-top: 10px;
+  text-align: right;
 }
 
-.App-link {
-  color: #61dafb;
+.app_wrapper .theme_btn button {
+  float: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.theme_modal {
+  background-color: #000;
+  border-radius: 6px;
+  padding: 5px 0 30px;
+  text-align: center;
+  margin-top: 3px;
 }
+
+.theme_modal p {
+  color: #fff;
+  margin: 5px;
+}
+
+.app_wrapper.dark .theme_modal {
+  background-color: #fff;
+}
+
+.app_wrapper.dark .theme_modal p {
+  color: #000;
+}
+
+/*checkbox */
+
+.lb1 {      
+  margin: 5px;
+}
+#highload1 {       
+  display: none;
+}
+#highload1+.lb1, #highload1+.lb1::before, #highload1+.lb1::after {
+  transition: all .3s;
+}
+#highload1+.lb1 {
+  display: inline-block;
+  position: relative;
+  width: 55px;
+  height: 21px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#highload1+.lb1::before {
+  display: block;
+  content: attr(data-offlabel);
+  position: absolute;
+  top: 23px;
+  right: -11px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  opacity: 0.5;
+}
+#highload1+.lb1::after {
+border-radius: 50%;
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  width: 15px;
+  height: 15px;
+  background-color: white;          
+}
+#highload1:checked+.lb1::before {
+  content: attr(data-onlabel);
+  left: 0px;
+  right: auto;
+  color: #fff;
+}
+#highload1:checked+.lb1::after {
+  left: 36px;
+  background-color: #f7f7f7;
+}
+
+#highload1+.lb1 {             
+  background-color: #ccc;
+}
+#highload1:checked+.lb1 {
+  background-color: green;
+}
+#highload1:checked+.lb1::before {
+  color: #000;
+}
+
+
+

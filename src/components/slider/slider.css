@@ -1,0 +1,51 @@
+.prev_btn img {
+    transform: rotate(180deg);
+}
+
+.slider_container {
+  margin: 100px 0;
+}
+
+.slide_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide {
+  max-width: 496px;
+  width: 34%;
+  max-height: 308px;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 32px;
+}
+
+.info {
+  width: 62%;
+}
+
+.info h2 {
+  font-size: 40px;
+}
+
+.app_wrapper.dark .info h2, .app_wrapper.dark .info p {
+  color: #fff;
+}
+
+.info p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  opacity: 0.5;
+}
+
+.slider_btns {
+  display: flex;
+  justify-content: space-between;
+}
