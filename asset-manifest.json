@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/testTaskWithHooks/static/css/main.18497ab1.css",
+    "main.js": "/testTaskWithHooks/static/js/main.d4127067.js",
+    "static/media/tarsila.png": "/testTaskWithHooks/static/media/tarsila.20edad0e5b06673fe19b.png",
+    "static/media/leonardo.png": "/testTaskWithHooks/static/media/leonardo.2c8034803212e37d129a.png",
+    "static/media/zomboid.png": "/testTaskWithHooks/static/media/zomboid.b73bef139bef114e505e.png",
+    "static/media/representaDecepção.png": "/testTaskWithHooks/static/media/representaDecepção.21f267c16b85abef99ad.png",
+    "static/media/platao.png": "/testTaskWithHooks/static/media/platao.f93f3f53cb9d7991d7e1.png",
+    "static/media/m_anjelo.png": "/testTaskWithHooks/static/media/m_anjelo.6ae50d36d525ef1dafe5.png",
+    "static/media/representaOdio.png": "/testTaskWithHooks/static/media/representaOdio.2346989c6f93b04fed3a.png",
+    "static/media/einstein.png": "/testTaskWithHooks/static/media/einstein.42a051e82a8def3bbf32.png",
+    "static/media/minecraft.png": "/testTaskWithHooks/static/media/minecraft.fef830771b49a19faa97.png",
+    "static/media/kawasaki.png": "/testTaskWithHooks/static/media/kawasaki.3231d91f97a699ea2033.png",
+    "static/media/robert.png": "/testTaskWithHooks/static/media/robert.f9e565c39713e01b4860.png",
+    "static/media/JohannesVermeer.png": "/testTaskWithHooks/static/media/JohannesVermeer.908367c368b4a3c0ddcf.png",
+    "static/media/python.png": "/testTaskWithHooks/static/media/python.c610ed6555c0e8142cfe.png",
+    "static/media/elis.png": "/testTaskWithHooks/static/media/elis.9e104cd2ba5c94238dcf.png",
+    "static/media/tesla.png": "/testTaskWithHooks/static/media/tesla.a1fadabc9f407c10295d.png",
+    "static/media/tom.png": "/testTaskWithHooks/static/media/tom.40b6c6a0fcbb67fdf649.png",
+    "static/media/luis.png": "/testTaskWithHooks/static/media/luis.c96a2e2c55261813e4c1.png",
+    "static/media/react.png": "/testTaskWithHooks/static/media/react.f50a5319e11a73990b12.png",
+    "static/media/playstation.png": "/testTaskWithHooks/static/media/playstation.a26e6e5251307d30e7af.png",
+    "static/media/xbox.png": "/testTaskWithHooks/static/media/xbox.47b8afbb31cc3f4ea807.png",
+    "index.html": "/testTaskWithHooks/index.html",
+    "main.18497ab1.css.map": "/testTaskWithHooks/static/css/main.18497ab1.css.map",
+    "main.d4127067.js.map": "/testTaskWithHooks/static/js/main.d4127067.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18497ab1.css",
+    "static/js/main.d4127067.js"
+  ]
+}
